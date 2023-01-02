@@ -1,0 +1,65 @@
+body{
+    background-color:#ccbba7;
+    font-family:sans-serif;
+}
+h2{
+    color:#332d2d;
+    border:1px solid grey;
+}
+h4{
+   text-decoration:underline;
+   color:#670606; 
+}
+p{
+    line-height:20px;
+}
+button {
+    background-color:white;
+    border: 2px solid magenta;
+    border-radius: 5px;
+    color: magenta;
+    }
+    button:hover{
+    color: black;
+    }
+    .signup{
+        background-color: magenta;
+        color:white;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Sevillana&display=swap'); 
+.font{
+    font-family: 'Merriweather', serif;
+font-family: 'Sevillana', cursive;
+font-size:larger;
+}
+.hover{
+    background-color: black;
+    color:aliceblue;
+    width:200px;
+    transition:width 3s;
+}
+.hover:hover{
+    width:500px;
+    background-color: aliceblue ;
+    color:black;
+}
+.circle{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    background-color:cadetblue;
+    border:2px solid olive;
+}
+.mediaquery{
+    border:2px solid brown;
+    background-color:cadetblue;
+    height:80px;
+    text-align:center;
+    padding-top:30px;
+    font-size:larger;
+}
+@media screen and (max-width:600px){
+    .mediaquery{
+        background-color:yellow;
+    }
+}
